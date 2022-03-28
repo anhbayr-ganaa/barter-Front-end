@@ -1,0 +1,29 @@
+
+
+.barter-show-third-line{
+    display: flex;
+    flex-direction: column;
+}
+.barter-show-third-line-q{
+    margin-top: 20px;
+    padding: 10px;
+}
+.barter-show-third-btn{
+    background-color: transparent;
+   border: 2px solid var(--grayColor);
+   width: 292px;
+   height: 55px;
+   font-weight: 500;
+   color: var(--grayColor);
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.barter-show-third-btn:hover{
+    background-color: var(--grayColor);
+    color: white;
+    transition:0.5s;
+}
+.left{
+    margin-left:10px
+}

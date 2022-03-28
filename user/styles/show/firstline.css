@@ -1,0 +1,18 @@
+
+@import url(../root.css);
+.barter-show-first-line{
+    margin-top: 25px;
+}
+.barter-show-flex-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.barter-show-title{
+    font-size: var(--barter-show-title-fs);
+    font-weight: var(--barter-show-title-fw);
+
+}
+.barter-show-time{
+    font-size: var(--barter-show-time-fs);
+}

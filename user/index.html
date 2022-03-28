@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+
+<link rel="stylesheet" href="./styles/1navbar.css">
+<link rel="stylesheet" href="./styles/2sectionFirst.css">
+<link rel="stylesheet" href="./styles/3sectionAds.css">
+<link rel="stylesheet" href="./styles/4third.css">
+<link rel="stylesheet" href="./styles/5fourth.css">
+<link rel="stylesheet" href="./styles/padding.css">
+<link rel="stylesheet" href="./styles/footer.css">
+
+<link rel="stylesheet" href="./styles/all.css">
+<link rel="stylesheet" href="./styles/swipper.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="barter-navbar-container ">
+<div> <a href="index.html"><p class="barter-navbar-logo-text gradient">BARTER</p></a>  </div>
+<div class="barter-navbar-row">
+   <div class="barter-navbar-search"> <input type="search" class="barter-navbar-input" placeholder="Хэрэггүй зүйлээ хэрэгтэй хүнд нь"> 
+    <button class="barter-navbar-search-button"><img src="./svg/search.svg" alt=""></button></div> 
+     <button class="barter-navbar-button">Солих</button> 
+ </div>
+<div class="barter-navbar-row barter-navbar-profile">
+    <button class="barter-navbar-profile-button">  <img src="./svg/moon.svg" alt="" class="barter-navbar-svg"></button>
+    <button class="barter-navbar-profile-button">  <img src="./svg/following.svg" alt="" class="barter-navbar-svg"></button>
+  
+
+</div>
+</nav>
+<div class="padding">
+
+
+    <section class="barter-second-section">
+        <div class="barter-ads-container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img class="barter-slide-img" src="./swiperimg/hevtee.PNG" alt=""></div>
+                  <div class="swiper-slide"><img class="barter-slide-img"  src="./swiperimg/hevtee.PNG" alt=""></div>
+                  <div class="swiper-slide"><img class="barter-slide-img"  src="./swiperimg/hevtee.PNG" alt=""></div>
+               
+                </div>
+              
+              </div>
+        </div>
+
+        <script>
+            
+     const swiper = new Swiper(".swiper", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        freeMode: true,
+        loop:true,
+        
+      });
+    
+        </script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    </section>
+    <section class="barter-first-section">
+        <div class="barter-first-section-right"> 
+           <div class=" barter-section-btn-div" > <img src="./svg/notebook.svg" alt=""><button class="barter-first-s-btn marginleft5"> Ангилал</button> </div>
+           <div class="marginleft70 barter-section-btn-div"> <img src="./svg/marker.svg" alt=""><button class="barter-first-s-btn marginleft5 "> Улаанбаатар</button> </div>
+        </div>
+        <div class="barter-first-section-right"> <button class="barter-first-s-right-btn">Бүгд</button> </div>
+    </section>
+    <section class="barter-third-section">
+        <div class="barter-section-btn-div" > <img src="./svg/new.svg" alt=""><button class="barter-first-s-btn marginleft5">Шинээр нэмэгдсэн</button> </div>
+    </section>
+
+ <section class="barter-fourth-section">
+<div class="barter-card-container">
+       <a  href="show.html" >
+        <div class="barter-card-figile">
+            <img src="./productimg/kurtka.PNG" alt="" class="barter-card-img">
+         
+        </div>
+        </a>
+     <div class="padd5">
+        <div><p class="barter-card-time">23 цагийн өмнө</p></div>
+        <div> <p class="barter-card-title">Iphone XR</p> </div>
+  
+        <div class="barter-card-row">
+            <p class="barter-card-meet">Газар товлох</p>
+            <div class="barter-card-row space-between">
+                <p class="barter-card-cash">900000₮</p>
+                <button class="barter-card-star-button"><img class="" src="./svg/star.svg" alt=""></button>
+            </div>
+        </div>
+       </div>
+
+    </div>
+</div>
+ </section>
+</div>
+<footer class="barter-footer-container"></footer>
+</body>
+</html>

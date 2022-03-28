@@ -1,0 +1,15 @@
+.swiper {
+    width: 100%;
+ 
+
+  }
+
+  .swiper-slide{
+    background-color: white;
+  
+  }
+
+  .barter-slide-img{
+    object-fit: contain;
+    width: 100%;
+  }
