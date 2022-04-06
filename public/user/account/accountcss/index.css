@@ -1,0 +1,67 @@
+@import url(./rootaccount.css);
+
+
+.padding{
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.account-line{
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 239, 242);
+    min-width: 255px;
+}
+
+
+.account-pro{
+    padding: 15px;
+    gap: 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.account-pro-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: var(--grayColor);
+}
+.action{
+    max-width: 255px;
+
+    display: flex;
+
+    align-items: center;
+    padding: 10px 16px;
+    transition: background-color 0.2s ease-in-out 0s;
+  
+    color: var(--grayColor);
+   transition: 100ms;
+    padding-left: 13px;
+}
+.action:hover{
+  background-color: var( --border-color);
+  border-right: 2px solid var(--grayColor);
+  
+}
+.action-active{
+
+}
+.title{
+    margin-left: 15px;
+}
+
+.frame{
+    min-height: 600px;
+    height:100%;
+    width:100%;
+    outline: none;
+   
+    margin-left: 20px;
+}

@@ -1,0 +1,12 @@
+
+@import url(../root.css);
+option{
+    text-transform: uppercase;
+}
+select{
+    text-transform: uppercase;
+    padding: 5px;
+    border: 1px solid var(--grayColor);
+    outline: none;
+    cursor: pointer;
+}

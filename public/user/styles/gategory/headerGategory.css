@@ -1,0 +1,52 @@
+@import url(../root.css);
+.barter-gategory-header-text{
+font-weight: 700;
+font-size: var(--hearderGategory-fs);
+color: var(--headerGategory-c);
+
+}
+
+.barter-gategory-header-count{
+    font-weight: 700;
+    font-size: var(--hearderGategorynumber-fs);
+    color: var(--headerGategory-ca);
+    margin-left: 12px;
+}
+
+.barter-gategory-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.barter-gategory-select{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 40px;
+
+}
+.barter-gategory-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.select{
+    padding: 5px;
+    outline:none;
+    border: 1px solid var(--grayColor);
+    cursor: pointer;
+}
+option{
+    padding: 3px;
+    cursor: pointer;
+}
+option:hover{
+    background-color: red;
+
+}

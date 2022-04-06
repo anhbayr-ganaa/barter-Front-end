@@ -1,0 +1,35 @@
+
+@import url(./rootaccount.css);
+
+body{
+    margin: 0 20px;
+}
+
+.mynews-row{
+display: flex;
+flex-direction: row;
+height: 65px;
+align-items: center;
+}
+
+.mynews-button-container{
+
+}
+.mynews-btn{
+padding: 8px 40px;
+background-color: transparent;
+border: 0px;
+transition: 250ms;
+}
+.mynews-btn:hover{
+    background-color: var(--border-color);
+}
+
+.active{
+    border-bottom: 1px solid var(--grayColor);
+}
+
+
+.mynews-contianer{
+
+}

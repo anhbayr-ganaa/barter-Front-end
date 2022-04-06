@@ -1,0 +1,64 @@
+ @import url(./root.css);
+
+.barter-card-container{
+    width: var(--small-card-width);
+    height: var(--small-card-height);
+    border: 1px solid var(--cardborder);
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.barter-card-img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    transition: transform .8s;
+}
+.barter-card-img:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.barter-card-figile{
+    overflow: hidden;
+}
+.barter-card-time{
+    font-size: 12px;
+    color: var(--grayColor);
+    margin-top: 11px;
+}
+.barter-card-title{
+    font-size: 18px;
+    color: var(--grayColor);
+    font-weight: 700;
+    margin-top: 11px;
+}
+.barter-card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.barter-card-cash{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cardCashColor);
+}
+.barter-card-meet{
+    color:var(--grayColor);
+    font-size: 12px;
+}
+.padd5{
+    padding: 5px;
+}
+.barter-card-star-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.barter-card-star-button:hover{
+  
+
+}

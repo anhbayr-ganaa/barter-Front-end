@@ -1,0 +1,88 @@
+
+@import url(./root.css);
+.barter-gate-row{
+  display: flex;
+  flex-direction: row;
+
+}
+.barter-gate-list{
+  display: flex;
+  flex-direction: column;
+
+}
+.barter-gate-select-plaza{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  min-width: 1000px;
+  width: 100%;
+}
+.barter-gate-li{
+
+}
+.barter-gate-li{
+  transition: 500ms;
+}
+.barter-gate-li:hover{
+  background-color: antiquewhite;
+}
+.barter-gate-list{
+  padding: 20px;
+}
+.barter-gate-list-btn{
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+}
+.btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+li{
+  list-style-type: none;
+  padding: 5px;
+  min-width: 150px;
+}
+.gate-count{
+  margin-left: 15px;
+}
+.barter-gate-list-sbtn{
+  color: var(--grayColor);
+
+}
+
+.barter-gate-pick{
+  min-height: 500px;
+}
+
+
+.barter-gate-select-right{
+
+}
+.barter-gate-select-right{
+  justify-content: flex-end;
+}
+
+
+
+.barter-gategory-cards-container{
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+ul{
+  padding:20px;
+}
+
+
+
+
+
+.gate-active{
+color: red;
+}

@@ -1,0 +1,132 @@
+
+@import url(./rootaccount.css);
+.settings-section-title-container{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    word-break: break-word;
+    margin-bottom: 15px;
+}
+.settings-section-title{
+    color: rgb(13, 17, 24);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    margin:10px;
+
+}
+.settings-container{
+    padding: 0px 20px;
+}
+.settings-section-card{
+    padding: 24px;
+    border: 1px solid rgb(238, 239, 242);
+    max-width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+.col-row{
+    display: flex;
+  flex-direction: row;
+
+   width: 100%;
+}
+.name-container{
+padding-bottom: 8px;
+}
+.name{
+    color: rgb(136, 138, 153);
+    font-weight: 400;
+    line-height: 1.1;
+}
+.input-container{
+    flex: auto;
+    max-width: 100%;
+}
+.settings-input{
+    border-radius: 16px;
+    padding:11px ;
+    color: rgb(13, 17, 24);
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 8px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.padding8{
+padding-bottom: 10px;
+padding-left: 10px;
+width: 100%;
+}
+.col-row-container{
+    display: flex;
+    flex-direction: column;
+}
+.settings-mybtn{
+    padding: 8px 24px;
+    background-color: var(--grayColor);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: none;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.marginl10{
+    margin-left: 20px;
+    padding: 10px;
+}
+.number-slagon{
+    font-size:16px;
+    color: var(--grayColor);
+}
+.number{
+    font-size: 16px;
+    color: var(--grayColor);
+    font-weight: 500;
+}
+.call-background{
+ display: flex;
+ align-items: center;
+ width: 45px ;
+ height: 45px;
+ border-radius: 100%;
+ background-color: var(--border-color);
+ justify-content: center;
+}
