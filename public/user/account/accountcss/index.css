@@ -4,8 +4,12 @@
 .padding{
     padding-left: 100px;
     padding-top: 100px;
-    display: flex;
-    flex-direction: row;
+    display: grid; 
+    grid-template-columns: 0.2fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 16px; 
+    grid-template-areas: 
+      ". ."; 
 }
 .account-line{
     display: flex;
@@ -16,6 +20,7 @@
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(238, 239, 242);
     min-width: 255px;
+    height: 288px;
 }
 
 
@@ -62,6 +67,6 @@
     height:100%;
     width:100%;
     outline: none;
-   
+   border: none;
     margin-left: 20px;
 }

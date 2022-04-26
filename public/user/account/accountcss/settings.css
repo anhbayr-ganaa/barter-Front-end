@@ -130,3 +130,10 @@ justify-content: space-between;
  background-color: var(--border-color);
  justify-content: center;
 }
+
+
+.fill{
+  
+    fill: red;
+
+}

@@ -29,6 +29,8 @@
   href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
 />
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
 <script src="./js/index.js"></script>
 </head>
 <body>
@@ -107,22 +109,61 @@
         </a>
      <div class="padd5">
         <div><p class="barter-card-time">23 цагийн өмнө</p></div>
-        <div> <p class="barter-card-title">Iphone XR</p> </div>
+        <div> <p class="barter-card-title">Iphone XR bh90 bagtaamj 64gb
+          
+        </p> </div>
   
         <div class="barter-card-row">
             <p class="barter-card-meet">Газар товлох</p>
             <div class="barter-card-row space-between">
                 <p class="barter-card-cash">900000₮</p>
-                <button class="barter-card-star-button"><img class="" src="./svg/star.svg" alt=""></button>
+                <button class="like-btn"></button>
             </div>
         </div>
        </div>
 
     </div>
+
+    <div class="barter-card-container">
+        <a  href="show.html" >
+         <div class="barter-card-figile">
+             <img src="./productimg/цув.PNG" alt="" class="barter-card-img">
+          
+         </div>
+         </a>
+      <div class="padd5">
+         <div><p class="barter-card-time">23 цагийн өмнө</p></div>
+         <div> <p class="barter-card-title">Iphone XR bh90 bagtaamj 64gb
+           
+         </p> </div>
+   
+         <div class="barter-card-row">
+             <p class="barter-card-meet">Газар товлох</p>
+             <div class="barter-card-row space-between">
+                 <p class="barter-card-cash">900000₮</p>
+                 <button class="like-btn"></button>
+             </div>
+         </div>
+        </div>
+ 
+     </div>
+ 
+ 
+     </div>
     </section>
 </div>
  </section>
 </div>
 <footer class="barter-footer-container"></footer>
+
+<script type="text/javascript">
+     
+
+    $('.like-btn').on('click', function() {
+      $(this).toggleClass('is-active');
+    });
+  
+  </script>
+
 </body>
 </html>

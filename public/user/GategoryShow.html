@@ -12,8 +12,7 @@
      <link rel="stylesheet" href="./styles/card.css">
      <link rel="stylesheet" href="./styles/gategory/select.css">
 
-
-    
+     <script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
     <title>Ангилал</title>
 </head>
 <body>
@@ -65,44 +64,35 @@
                  </a>
               <div class="padd5">
                  <div><p class="barter-card-time">23 цагийн өмнө</p></div>
-                 <div> <p class="barter-card-title">Iphone XR</p> </div>
+                 <div> <p class="barter-card-title">Iphone XR 
+                   
+                 </p> </div>
            
                  <div class="barter-card-row">
                      <p class="barter-card-meet">Газар товлох</p>
                      <div class="barter-card-row space-between">
                          <p class="barter-card-cash">900000₮</p>
-                         <button class="barter-card-star-button"><img class="" src="./svg/star.svg" alt=""></button>
+                         <button class="like-btn"></button>
                      </div>
                  </div>
                 </div>
          
              </div>
-             <div class="barter-card-container">
-              <a  href="show.html" >
-               <div class="barter-card-figile">
-                   <img src="./productimg/kurtka.PNG" alt="" class="barter-card-img">
-                
-               </div>
-               </a>
-            <div class="padd5">
-               <div><p class="barter-card-time">23 цагийн өмнө</p></div>
-               <div> <p class="barter-card-title">Iphone XR</p> </div>
-         
-               <div class="barter-card-row">
-                   <p class="barter-card-meet">Газар товлох</p>
-                   <div class="barter-card-row space-between">
-                       <p class="barter-card-cash">900000₮</p>
-                       <button class="barter-card-star-button"><img class="" src="./svg/star.svg" alt=""></button>
-                   </div>
-               </div>
-              </div>
-       
-           </div>
+        
              
             </div>
         </div>
       </div>
          
     </div>
+
+    <script type="text/javascript">
+     
+
+      $('.like-btn').on('click', function() {
+        $(this).toggleClass('is-active');
+      });
+    
+    </script>
 </body>
 </html>

@@ -5,3 +5,12 @@
   
        
 }
+
+button{
+    border: none;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: rgb(255, 52, 103);
+}

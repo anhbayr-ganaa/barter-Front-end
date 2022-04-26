@@ -40,10 +40,11 @@
     margin-top: 11px;
 }
 .barter-card-title{
-    font-size: 18px;
+    font-size: 14px;
     color: var(--grayColor);
     font-weight: 700;
     margin-top: 11px;
+ 
 }
 .barter-card-row{
     display: flex;
@@ -74,4 +75,31 @@
 .barter-card-star-button:hover{
   
 
+}
+
+
+.like-btn{
+
+top: 9px;
+left: 15px;
+display: inline-block;
+background: url(../../../zurag/heart.png);
+width: 60px;
+height: 60px;
+background-size: 2900%;
+background-repeat: no-repeat;
+cursor: pointer;
+}
+
+.is-active{
+animation-name: animate;
+animation-duration: .8s;
+animation-iteration-count: 1;
+animation-timing-function: steps(28);
+animation-fill-mode: forwards;
+}
+@keyframes animate {
+0% {background-position:left ;}
+50% {background-position:right;}
+100%{background-position: right;}
 }

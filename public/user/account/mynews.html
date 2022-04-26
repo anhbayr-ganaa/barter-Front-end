@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,57 @@
     <title></title>
     <link rel="stylesheet" href="./accountcss/mynews.css">
     <link rel="stylesheet" href="./accountcss/all.css">
-    
+
 </head>
- <body>
-       <div class="mynews-header">
-        <div class="mynews-row" >
-           <div class="mynews-button-container" id="myDIV"> <button class="mynews-btn ">Нийтэлсэн</button>  </div>
-           <div class="mynews-button-container" id="myDIV"> <button class="mynews-btn">Устгагдсан</button> </div>
+
+<body>
+    <div class="mynews-header">
+        <div class="mynews-row">
+            <div class="mynews-button-container" id="myDIV"> <button class="mynews-btn active">Нийтэлсэн</button> </div>
+            <div class="mynews-button-container" id="myDIV"> <button class="mynews-btn">Устгагдсан</button> </div>
         </div>
+    </div>
+
+    <div class="mynews-contianer">
+        <div class="mynews-container-row">
+            <div class="row">
+                <div class="mynews-img-container">
+                    <img class="mynews-img" src="../../../zurag/kurtka.PNG" alt="">
+                </div>
+                <div class="mynews-text-container">
+                    <span>Цув зарна</span>
+                    <span>Ангилал: <span>Хувцас</span></span>
+                    <span>50000$</span>
+                    <span>Нэмэгдсэн <span>2020/03/22</span></span>
+                </div>
+            </div>
+
+
+
+            <div class="column-space-b">
+                <div><span>Нийтэлсэн</span></div>
+
+                <div class="column-space-b">
+                    <button class="update mybtn">Засах </button>
+                    <button class="delete mybtn">Устгах</button>
+                </div>
+
+
+            </div>
         </div>
+    </div>
 
-       <div class="mynews-contianer">
-           <div>
-               <div></div>
-               <div></div>
-               <div></div>
-           </div>
-       </div>
-      
 
-<script>
-let buttons =document.querySelectorAll('button');
-buttons.forEach(button =>{
-    button.addEventListener('click', function(){
-        buttons.forEach(btn=>btn.classList.remove('active'));
-        this.classList.add('active');
-    })
-})
-</script>
+    <script>
+        let buttons = document.querySelectorAll('button');
+        buttons.forEach(button => {
+            button.addEventListener('click', function () {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            })
+        })
+    </script>
 
- </body>
+</body>
+
 </html>

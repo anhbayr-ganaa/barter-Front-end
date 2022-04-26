@@ -25,13 +25,13 @@
 .barter-card-time{
     font-size: 12px;
     color: var(--grayColor);
-    margin-top: 11px;
+
 }
 .barter-card-title{
     font-size: 18px;
     color: var(--grayColor);
     font-weight: 700;
-    margin-top: 11px;
+    margin-top: 4px;
 }
 .barter-card-row{
     display: flex;

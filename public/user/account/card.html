@@ -1,0 +1,74 @@
+
+<link rel="stylesheet" href="../styles/card.css">
+<script src="https://code.jquery.com/jquery-2.2.4.js" charset="utf-8"></script>
+
+
+<style>
+    .barter-card-cash{
+color: red;
+    }
+    .buttons{
+        position:relative;
+        padding-top: 30px;
+
+    }
+    .like-btn{
+ 
+    top: 9px;
+    left: 15px;
+    display: inline-block;
+    background: url(../../../zurag/heart.png);
+    width: 60px;
+    height: 60px;
+    background-size: 2900%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+    
+.is-active{
+    animation-name: animate;
+    animation-duration: .8s;
+    animation-iteration-count: 1;
+    animation-timing-function: steps(28);
+    animation-fill-mode: forwards;
+}
+@keyframes animate {
+  0% {background-position:left ;}
+  50% {background-position:right;}
+  100%{background-position: right;}
+}
+
+
+</style>
+<div class="barter-card-container">
+    <a  href="show.html" >
+     <div class="barter-card-figile">
+         <img src="./productimg/kurtka.PNG" alt="" class="barter-card-img">
+      
+     </div>
+     </a>
+  <div class="padd5">
+     <div><p class="barter-card-time">23 цагийн өмнө</p></div>
+     <div> <p class="barter-card-title">Iphone XR bh90 bagtaamj 64gb
+       
+     </p> </div>
+
+     <div class="barter-card-row">
+         <p class="barter-card-meet">Газар товлох</p>
+         <div class="barter-card-row space-between">
+             <p class="barter-card-cash">900000₮</p>
+             <button class="like-btn"></button>
+         </div>
+     </div>
+    </div>
+
+ </div>
+     
+    <script type="text/javascript">
+     
+
+      $('.like-btn').on('click', function() {
+        $(this).toggleClass('is-active');
+      });
+    
+    </script>
